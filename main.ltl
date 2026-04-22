@@ -1,0 +1,15 @@
+// ltl-csp-demo/main.ltl
+//
+// CSP-style channels with `select` on multiple channels.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-csp-demo v0.1.0")
+    io::println("CSP-style channels with `select` on multiple channels.")
+    0
+}
